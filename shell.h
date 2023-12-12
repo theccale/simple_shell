@@ -140,7 +140,7 @@ int _putsfd(char *str, int fd);
 
 
 
-/* toem_string1.c */
+/* pre_deb_anostrfn.c */
 
 int _putchar(char);
 char *copy_strg(char *, char *);
@@ -155,7 +155,7 @@ char *_strchr(char *, char);
 
 /* pre-deb_anostrfn1*/
 char **split_string(char *, char *);
-char **strtow2(char *, char);
+char **spliter(char *, char);
 
 /* toem_realloc.c */
 char *_memset(char *, char, unsigned int);
@@ -165,8 +165,8 @@ void *_realloc(void *, unsigned int, unsigned int);
 /* toem_memory.c */
 int bfree(void **);
 
-/* toem_atoi.c */
-int interactive(info_t *);
+/* pre_deb_main.c */
+int user_friendly(info_t *);
 int is_delim(char, char *);
 int _isalpha(int);
 int _atoi(char *);
@@ -178,9 +178,9 @@ int print_d(int, int);
 char *convert_number(long int, int, int);
 void remove_comments(char *);
 
-/* toem_builtin.c */
-int _myexit(info_t *);
-int _mycd(info_t *);
+/*pre_deb_main1 */
+int shell_exit(info_t *);
+int chg_dir(info_t *);
 int _myhelp(info_t *);
 
 /* toem_builtin1.c */
